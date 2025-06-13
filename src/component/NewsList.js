@@ -1,9 +1,6 @@
 import React from 'react'
 
 const NewsList = ({ news }) => {
-  
-  console.log(news)
-
   return (
     <div className='grid grid-cols-2 gap-4 px-3'>
       {news.map((singleNews) => (
