@@ -1,3 +1,5 @@
+// server side data fetching
+
 import NewsList from '@/component/NewsList'
 
 const NewsPage = async () => {
